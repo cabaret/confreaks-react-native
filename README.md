@@ -1,5 +1,9 @@
 # confreaks-react-native
-React Native App using the Confreaks.TV API
+React Native example app using the Confreaks.TV API
+
+Small app I made to teach myself React Native. 
+
+Suggestions, remarks, feedback welcome. 
 
 # License
 
