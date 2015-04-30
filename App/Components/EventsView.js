@@ -75,7 +75,7 @@ class EventsView extends React.Component {
   }
   render() {
     return (
-      <View>
+      <View style={{flex: 1}}>
         <ListView
           dataSource={this.state.dataSource}
           renderRow={this.renderRow.bind(this)} />
