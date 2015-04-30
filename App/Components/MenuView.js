@@ -11,7 +11,8 @@ var {
   Text,
   View,
   StyleSheet,
-  TouchableHighlight
+  TouchableHighlight,
+  AlertIOS,
 } = React;
 
 var styles = StyleSheet.create({
@@ -143,7 +144,10 @@ class MenuView extends React.Component {
             <Text style={styles.buttonText}>Events</Text>
           </TouchableHighlight>
 
-          <TouchableHighlight style={this.makeButton(3)} underlayColor='#333'>
+          <TouchableHighlight
+            style={this.makeButton(3)}
+            onPress={() => AlertIOS.alert('Presenters has not been implemented yet!') }
+            underlayColor='#333'>
             <Text style={styles.buttonTextDark}>Presenters</Text>
           </TouchableHighlight>
         </View>
